@@ -1,0 +1,39 @@
+#NEXUS
+[ID: 5489171114]
+begin taxa;
+	dimensions ntax=10;
+	taxlabels
+		Desulfovibrio_vulgaris
+		Archaeoglobus_profundus
+		Thioalkalivibrio_halophilus
+		Sideroxydans_lithotrophicus
+		Pyrobaculum_arsenaticum
+		Desulfotomaculum_ruminis
+		Thermodesulfobium_narugense
+		Chlorobium_tepidum
+		Desulfocapsa_sulfexigens
+		Desulfobulbus_propionicus
+		;
+end;
+begin trees;
+	translate
+		1	Desulfovibrio_vulgaris,
+		2	Archaeoglobus_profundus,
+		3	Thioalkalivibrio_halophilus,
+		4	Sideroxydans_lithotrophicus,
+		5	Pyrobaculum_arsenaticum,
+		6	Desulfotomaculum_ruminis,
+		7	Thermodesulfobium_narugense,
+		8	Chlorobium_tepidum,
+		9	Desulfocapsa_sulfexigens,
+		10	Desulfobulbus_propionicus
+		;
+   [Note: This tree contains information on the topology, 
+          branch lengths (if present), and the probability
+          of the partition indicated by the branch.]
+   tree con_50_majrule = (1:3.041887592397844e-01,(9:1.386101950378287e-01,10:1.059552014543302e-01)1.000:1.410560440859189e-01,(((2:1.664735271189502e+00,5:1.194192455670733e+00)1.000:5.109794200056532e-01,((3:3.477308196168470e-01,4:3.657840129168130e-01)0.987:1.128319395278218e-01,8:4.593569352982252e-01)1.000:3.025866596801570e-01)1.000:2.518127711237448e-01,(6:2.135770570212087e-01,7:3.553090495275070e-01)0.974:1.216655470095641e-01)1.000:1.914573389179743e-01);
+
+   [Note: This tree contains information only on the topology
+          and branch lengths (median of the posterior probability density).]
+   tree con_50_majrule = (1:3.041887592397844e-01,(9:1.386101950378287e-01,10:1.059552014543302e-01):1.410560440859189e-01,(((2:1.664735271189502e+00,5:1.194192455670733e+00):5.109794200056532e-01,((3:3.477308196168470e-01,4:3.657840129168130e-01):1.128319395278218e-01,8:4.593569352982252e-01):3.025866596801570e-01):2.518127711237448e-01,(6:2.135770570212087e-01,7:3.553090495275070e-01):1.216655470095641e-01):1.914573389179743e-01);
+end;
